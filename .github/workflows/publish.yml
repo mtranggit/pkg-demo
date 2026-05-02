@@ -15,11 +15,6 @@ jobs:
     name: Publish to npm via Changesets
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-      pull-requests: write
-      id-token: write
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -43,7 +38,7 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: "pnpm run build && pnpm changeset publish"
+          publish: "pnpm run build"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
