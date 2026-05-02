@@ -52,6 +52,6 @@ jobs:
           git push --follow-tags
 
       - name: Publish to npm
-        run: pnpm changeset publish
+        run: pnpm changeset publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
