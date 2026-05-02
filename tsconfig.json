@@ -35,6 +35,7 @@
     "forceConsistentCasingInFileNames": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-    "noEmit": true
+    "noEmit": true,
+    "ignoreDeprecations": "6.0"
   }
 }
