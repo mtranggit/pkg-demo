@@ -1,5 +1,11 @@
 # mtd-pkg
 
+## 0.3.4
+
+### Patch Changes
+
+- f833389: add power operation
+
 ## 0.3.3
 
 ### Patch Changes
