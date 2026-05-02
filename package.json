@@ -1,15 +1,19 @@
 {
   "name": "mtd-pkg",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --out-dir dist",
+    "lint": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Michael Trang",
   "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.31.0",
+    "tsup": "^8.5.1",
     "typescript": "^6.0.3"
   }
 }
