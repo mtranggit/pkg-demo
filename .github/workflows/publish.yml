@@ -38,7 +38,7 @@ jobs:
         run: pnpm run build
 
       - name: Apply Changesets versioning
-        run: pnpm run changeset version
+        run: pnpm changeset version
 
       - name: Commit version bump and changelog
         run: |
