@@ -1,5 +1,11 @@
 # mtd-pkg
 
+## 0.3.3
+
+### Patch Changes
+
+- 0e10560: add release task
+
 ## 0.3.2
 
 ### Patch Changes
