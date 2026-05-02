@@ -1,5 +1,11 @@
 # mtd-pkg
 
+## 0.2.0
+
+### Minor Changes
+
+- e4e00f8: Publish to npm on every push to main
+
 ## 0.1.0
 
 ### Minor Changes
