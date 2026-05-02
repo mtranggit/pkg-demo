@@ -1,5 +1,15 @@
 # mtd-pkg
 
+## 0.3.0
+
+### Minor Changes
+
+- f92c3db: Remove power
+
+### Patch Changes
+
+- f1ac093: update publish
+
 ## 0.2.0
 
 ### Minor Changes
