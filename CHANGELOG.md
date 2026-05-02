@@ -1,5 +1,11 @@
 # mtd-pkg
 
+## 0.4.0
+
+### Minor Changes
+
+- ecc4954: keep only add and substract
+
 ## 0.3.4
 
 ### Patch Changes
