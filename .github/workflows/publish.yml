@@ -10,8 +10,8 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    
-  permissions:
+
+    permissions:
       contents: write
       pull-requests: write
       id-token: write
