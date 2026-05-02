@@ -1,5 +1,11 @@
 # mtd-pkg
 
+## 0.5.0
+
+### Minor Changes
+
+- 5af75df: add all back
+
 ## 0.4.0
 
 ### Minor Changes
