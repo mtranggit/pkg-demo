@@ -1,5 +1,11 @@
 # mtd-pkg
 
+## 0.3.2
+
+### Patch Changes
+
+- ab1380a: update node auth token
+
 ## 0.3.1
 
 ### Patch Changes
